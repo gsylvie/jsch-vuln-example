@@ -1,4 +1,12 @@
 # Maven
+- task: mergebase-task@1
+  inputs:
+    ScanName: 'mergebase'
+    CustomerServer: 'demo.mergebase.com'
+    CustomerToken: '1K76H7yfB0QWhtDm6s1kLoOeAvS_dYVQY'
+    KillBuild: true
+    SeverityThreshold: '0.0'
+    DebugMode: false
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
