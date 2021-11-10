@@ -27,4 +27,4 @@ steps:
     CustomerToken: '1K76H7yfB0QWhtDm6s1kLoOeAvS_dYVQY'
     KillBuild: true
     SeverityThreshold: '0.0'
-    DebugMode: false
+    DebugMode: true
