@@ -22,7 +22,7 @@ steps:
 
 - task: mergebase-task@1
   inputs:
-    ScanName: 'mergebase'
+    ScanName: 'Mergebase'
     CustomerServer: 'demo.mergebase.com'
     CustomerToken: '1K76H7yfB0QWhtDm6s1kLoOeAvS_dYVQY'
     KillBuild: true
