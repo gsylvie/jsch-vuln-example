@@ -21,7 +21,7 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 
-- task: mergebase-task@3
+- task: mergebase-task@4
   inputs:
     ScanName: 'MergeBase-From-Azure-Devops-Windows2019'
     CustomerServer: 'demo.mergebase.com'
