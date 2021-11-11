@@ -28,6 +28,6 @@ steps:
     CustomerToken: '1K76H7yfB0QWhtDm6s1kLoOeAvS_dYVQY'
     ScanAllProjects: true
     KillBuild: true
-    SeverityThreshold: '0.0'
+    SeverityThreshold: '0.1'
     DebugMode: true
 
